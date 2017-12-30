@@ -1,0 +1,229 @@
+/******************************************************************************\
+  Global HTML Properties
+\******************************************************************************/
+body {
+  background-color: #FFEFDF;
+  color: #2E2633;
+}
+
+h1, h2 {                                                                                                                                                                                                                                                                              
+  margin: 2px;
+  color: #555152;
+  text-transform: capitalize;
+}                                                                                                                                                                                                                                                                                 
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EEAA11;
+  font-weight: bold;
+}
+
+ul, ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************************************************\
+  Layout & Major Properties
+\******************************************************************************/
+#content {
+  width: 800px;
+  margin: 0px auto;
+}
+
+#query, #results, .report, #questions ol li {     
+  padding: 10px;                                                                                                                                                                                                                                                                   
+  border: 2px dashed #555152;                                                                                                                                                                                                                                                        
+  margin: 5px;
+  background-color: #DFEFFF;  
+}
+
+.report:nth-child(even) {
+  background-color: #DFFFEF;
+}
+
+/******************************************************************************\
+  Query Block
+\******************************************************************************/
+.term {
+  font-size: .9em;
+  word-spacing: -1px;
+}
+
+ul li.term:after {
+  content: ', ';
+  font-weight: bold;
+}
+
+ul li.term:last-child:after {
+  content: '. ';
+  font-weight: bold;
+}
+
+.label {
+  font-weight: bold;
+  float: left;
+  color: #99173C;
+  margin-right: 2px;
+  text-transform: capitalize;
+}
+
+.expansion+.expansion {
+  margin-top: 10px;
+}
+
+.weight {
+  vertical-align: super;
+  font-size: .83em;
+  display: inline;
+}
+
+/******************************************************************************\
+  Index Block
+\******************************************************************************/
+#questions a {
+  color: #2E2633;
+}
+
+#questions a:hover {
+  color: #EEAA11;
+}
+
+#questions ol li {
+  list-style-type: none;
+}
+
+#questions ol li:nth-child(even) {
+  background-color: #DFFFEF;
+}
+
+.measure .label {
+  margin-left: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100px;
+}
+
+.measure .label:after {
+  content: ': ';
+}
+
+.measure .text {
+  display: inline-block;
+  width: 100px;
+  font-family: monospace;
+}
+
+.meter-wrap {
+  display: inline-block;
+  position: relative;
+  background: #ccc;
+}
+
+.meter-wrap, .meter {
+  width: 400px;
+  height: 10px;
+}
+
+.map {    background: #00A6A4; }
+.bpref {  background: #00B060; }
+.P_10 {   background: #6BE400; }
+
+/******************************************************************************\
+  Results Block
+\******************************************************************************/
+.UNKNOWN {
+  color: #00A6A4;
+}
+.NONRELEVANT {
+  color: #FF4500;
+  font-weight: bold;
+}
+.PARTIAL {
+  color: #00B060;
+  font-weight: bold;
+}
+.RELEVANT {
+  color: #6BE400;
+  font-weight: bold;
+}
+
+.visitid {
+  display: inline-block;
+  width: 150px;
+}
+
+#results ol {
+  list-style: none;
+}
+
+#results .rank {
+  display: inline-block;
+  width: 40px;
+  font-weight: bold;
+  color: #2E2633;
+}
+
+/******************************************************************************\
+  Report Block
+\******************************************************************************/
+.meta span.label {
+  display:  inline-block;
+  width: 160px;
+}
+
+.meta {
+  margin: 0 auto;
+  width: 750px;
+}
+
+.report {
+  padding: 20px;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 120%;
+}
+
+.report .text {
+  margin: 0 auto;
+  width: 750px;
+  white-space: pre-wrap;
+}
+
+.meta .text {
+  word-wrap: break-word;
+  display: inline-block;
+  width: 500px;
+}
+
+.match {
+  font-weight: bold;
+}
+
+.NGD {
+  padding: 1px;
+  background-color: #fcaf3e;
+  border: 1px solid #f57900;   
+}
+
+.Wiki {
+  padding: 1px;
+  background-color: #729fcf;
+  border: 1px solid #3465a4;   
+}
+
+.UMLS {
+  padding: 1px;
+  background-color: #8ae234;
+  border: 1px solid #73d216;   
+}
+
+.SNOMED {
+  padding: 1px;
+  background-color: #fce94f;
+  border: 1px solid #edd400;   
+}

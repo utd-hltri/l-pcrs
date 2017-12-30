@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: javax.xml.ws:jaxws-api:2.2.11:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/javax.xml.ws/jaxws-api/jars/jaxws-api-2.2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/javax.xml.ws/jaxws-api/srcs/jaxws-api-2.2.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

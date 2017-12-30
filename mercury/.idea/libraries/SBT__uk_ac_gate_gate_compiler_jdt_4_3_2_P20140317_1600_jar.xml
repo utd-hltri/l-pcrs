@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: uk.ac.gate:gate-compiler-jdt:4.3.2-P20140317-1600:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/uk.ac.gate/gate-compiler-jdt/jars/gate-compiler-jdt-4.3.2-P20140317-1600.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/uk.ac.gate/gate-compiler-jdt/srcs/gate-compiler-jdt-4.3.2-P20140317-1600-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

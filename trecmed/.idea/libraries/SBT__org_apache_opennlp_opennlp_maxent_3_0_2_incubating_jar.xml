@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.opennlp:opennlp-maxent:3.0.2-incubating:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.opennlp/opennlp-maxent/bundles/opennlp-maxent-3.0.2-incubating.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.opennlp/opennlp-maxent/srcs/opennlp-maxent-3.0.2-incubating-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

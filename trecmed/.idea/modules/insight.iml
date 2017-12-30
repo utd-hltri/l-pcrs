@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="insight" external.linked.project.path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target/scala-2.11/classes" />
+    <output-test url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target/scala-2.11/test-classes" />
+    <exclude-output />
+    <content url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight">
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/src/main/java" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/src/main/scala-2.11" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target/scala-2.11/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/src/test/java" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/src/test/scala-2.11" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target/scala-2.11/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/src/main/resources" type="java-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target/scala-2.11/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target/scala-2.11/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+    <orderEntry type="module-library">
+      <library name="SBT: unmanaged-sources-and-docs">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.ws/jaxws-tools/srcs/jaxws-tools-2.2.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

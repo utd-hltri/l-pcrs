@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: riso-numerical:LBFGS:0:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/riso-numerical/LBFGS/jars/LBFGS-0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

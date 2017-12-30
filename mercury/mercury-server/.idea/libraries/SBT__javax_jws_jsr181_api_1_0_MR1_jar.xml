@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: javax.jws:jsr181-api:1.0-MR1:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/javax.jws/jsr181-api/jars/jsr181-api-1.0-MR1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/javax.jws/jsr181-api/srcs/jsr181-api-1.0-MR1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

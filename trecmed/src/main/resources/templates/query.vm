@@ -1,0 +1,47 @@
+<div id="query">
+  <div id="raw">
+    <h1>Question $query.asString():</h1>
+    $query.getRawText()
+  </div>
+  <div id="structured">
+    <h1>Keywords & Expansions:</h1>
+    #foreach($keyword in $query)
+      <div class="keyword">
+        <h2>$keyword</h2>
+        #foreach($expansion in $keyword.getExpansions())
+          #if(!$expansion.isEmpty())
+            <div class="expansion">
+              <div class="label">$expansion.getName(): </div>
+              <ul>
+                #foreach($term in $expansion)
+                  <li class="term">$term.getValue()<div class="weight">$term.getWeight()</div></li>
+                #end
+              </ul>
+            </div>
+          #end
+        #end
+        #foreach($subkeyword in $keyword.getSubKeywords())
+        <div class="subkeyword">
+          <h3>$subkeyword</h3>
+          #foreach($expansion in $subkeyword.getExpansions())
+            #if(!$expansion.isEmpty())
+              <div class="expansion">
+                <div class="label">$expansion.getSource(): </div>
+                <ul>
+                  #foreach($term in $expansion)
+                    <li class="term">$term.getValue()<div class="weight">$term.getWeight()</div></li>
+                  #end
+                </ul>
+              </div>
+            #end
+          #end
+        </div>
+        #end
+      </div>
+    #end
+  </div>
+  <div id="lucene">
+    <h1>Lucene Query:</h1>
+    ${query.asLuceneQuery().toString("report_text")}
+  </div>
+</div>

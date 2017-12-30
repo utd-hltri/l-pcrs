@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.encog.engine:encog-engine:2.5.0:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.encog.engine/encog-engine/jars/encog-engine-2.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

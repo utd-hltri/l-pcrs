@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("head.vm")
+</head>
+<body>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title/logo -->
+            <div class="mdl-layout-title">MERCuRY</div>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+
+            <div id="query-box" style="width:700px;margin:auto;text-align:center">
+                <form id="query-form" name="search" class="pull-left form-search" action="search" method="GET">
+                    <div class="input-append searchbox">
+                        <span class="glyphicon glyphicon-search" id="icon" style="display:inline-block;vertical-align:middle" ></span>
+                        <textarea type="search" id="search" name="q" wrap="soft" cols="80" tabindex="1" style="display:table-cell;vertical-align:middle;border:none,resize:none,overflow:hidden">$!q</textarea>
+                        <script>
+                            $('textarea').each(function () {
+                                this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;display:table-cell;vertical-align:middle');
+                            }).on('input', function () {
+                                this.style.height = 'auto';
+                                this.style.height = (this.scrollHeight) + 'px';
+                            })
+                                    .on('keydown', function(event) {
+                                        if (event.keyCode == 13) {
+                                            $(this.form).submit()
+                                            return false;
+                                        }
+                                    })
+                        </script>
+                        <input type="submit" value="Search" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--amber-A200">
+                    </div>
+                </form>
+            </div>
+
+            <button id="demo-menu-lower-right"
+                    class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+            </button>
+
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+                for="demo-menu-lower-right">
+                <li class="mdl-menu__item">Some Action</li>
+                <li class="mdl-menu__item">Another Action</li>
+                <li disabled class="mdl-menu__item">Disabled Action</li>
+                <li class="mdl-menu__item">Yet Another Action</li>
+            </ul>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            <section class="section--center error">
+                #parse("error.vm")
+            </section>
+
+            <section class="section--center">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--middle results">
+                        <h4 class="display-1 page-description">
+                            #if ( $pageNum > 1)
+                                Page $pageNum of $number.format($pagesAvailable) for $number.format($numResults) relevant EEG reports ($number.format($qTime) seconds)
+                            #else
+                                Found $number.format($numResults) relevant EEG reports ($number.format($qTime) seconds)
+                            #end
+                        </h4>
+                        #parse("results_list.vm")
+                    </div>
+                </div>
+            </section>
+
+            <section class="section--center pagination">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
+                        #if ( $pagesAvailable > 1)
+                            <div class="pagination">
+                                #if ( $pageNum > 1 )
+                                    <a href="search?q=$esc.url($q)&pq=$esc.url($pq)&start=$math.mul($math.sub($pageNum, 2), $resultsPerPage)">Prev</a>
+                                #end
+
+                                #foreach( $pageIndex in $slip )
+                                    #if ( $pageNum == $pageIndex )
+                                        <span class="current-page">$pageNum</span>
+                                    #else
+                                        <a href="search?q=$esc.url($q)&pq=$esc.url($pq)&start=$math.mul($math.sub($pageIndex, 1), $resultsPerPage)">$pageIndex</a>
+                                    #end
+                                #end
+
+                                #if ( $pageNum < $pagesAvailable )
+                                    <a href="search?q=$esc.url($q)&pq=$esc.url($pq)&start=$math.mul($pageNum, $resultsPerPage)">Next</a>
+                                #end
+                            </div>
+                        #end
+                    </div>
+                </div>
+            </section>
+        </div>
+        #parse("footer.vm")
+    </main>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: commons-chain:commons-chain:1.1:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/commons-chain/commons-chain/jars/commons-chain-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/commons-chain/commons-chain/srcs/commons-chain-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: gov.nih.nlm.nls.metamap:metamapapi:1.0:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/gov.nih.nlm.nls.metamap/metamapapi/jars/metamapapi-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

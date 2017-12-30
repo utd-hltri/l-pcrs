@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: gnu.getopt:java-getopt:1.0.13:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/gnu.getopt/java-getopt/jars/java-getopt-1.0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/gnu.getopt/java-getopt/srcs/java-getopt-1.0.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="SBT 1" modules="eeg,eeg-core,knowledge-graph,report-annotations,report-interpretation,hltri-ml,ml-api,ml-core,hltri-util,hltri-util-scala,inquire,inquire-med,insight,insight-ollie,insight-wiki,medbase,mercury,scribe" />
+  </component>
+</project>

@@ -1,0 +1,73 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+<head>
+    #parse("head.vm")
+    <title>MERCuRY Judgment Interface</title>
+    <link rel="stylesheet" href="../css/welcome.css">
+</head>
+<body>
+<div class="welcome-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+    <header class="welcome-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">MERCuRY Judgment Interface</span>
+        </div>
+    </header>
+    <div class="welcome-ribbon"></div>
+    <main class="welcome-main mdl-layout__content">
+        <div class="welcome-container">
+            #if ( $error )
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"> </div>
+                        <div class="welcome-content mdl-shadow--4dp content mdl-color--red mdl-cell mdl-cell--6-col">
+                            <h4>Failed to log in.</h4>
+                            <p>Please double-check your user name and password.</p>
+                        </div>
+                </div>
+            #end
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+                <div class="welcome-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+                    <h3>Please log in:</h3>
+                    <form action="login" method=post>
+                        <p>
+                            <strong>Please enter your user name: </strong>
+                            <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input" type="text" id="username" name="username" size="25">
+                                <label class="mdl-textfield__label" for="username">User name...</label>
+                            </div>
+                        </p>
+                        <p>
+                            <strong>Please enter your password: </strong>
+                            <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input" type="password" id="password" name="password" size="15">
+                                <label class="mdl-textfield__label" for="password">Password...</label>
+                            </div>
+                        </p>
+                        <p>
+                            <input type="submit" value="Submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+                            <input type="reset" value="Reset" class="mdl-button mdl-js-button mdl-button--raised">
+                            <input type="hidden" name="source" value="$!{source}">
+                        </p>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </main>
+    </div>
+<html>

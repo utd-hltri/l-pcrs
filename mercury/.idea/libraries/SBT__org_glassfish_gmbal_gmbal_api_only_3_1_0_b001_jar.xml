@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.glassfish.gmbal:gmbal-api-only:3.1.0-b001:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.glassfish.gmbal/gmbal-api-only/jars/gmbal-api-only-3.1.0-b001.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.lexicalscope.jewelcli:jewelcli:0.8.9:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.lexicalscope.jewelcli/jewelcli/jars/jewelcli-0.8.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.lexicalscope.jewelcli/jewelcli/srcs/jewelcli-0.8.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

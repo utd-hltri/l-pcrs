@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: edu.washington.cs.knowitall.nlptools:nlptools-conf-breeze_2.10:2.4.1:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/edu.washington.cs.knowitall.nlptools/nlptools-conf-breeze_2.10/jars/nlptools-conf-breeze_2.10-2.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/edu.washington.cs.knowitall.nlptools/nlptools-conf-breeze_2.10/srcs/nlptools-conf-breeze_2.10-2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

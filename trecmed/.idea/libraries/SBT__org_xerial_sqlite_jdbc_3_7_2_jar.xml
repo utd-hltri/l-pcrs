@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.xerial:sqlite-jdbc:3.7.2:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.xerial/sqlite-jdbc/jars/sqlite-jdbc-3.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.xerial/sqlite-jdbc/srcs/sqlite-jdbc-3.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

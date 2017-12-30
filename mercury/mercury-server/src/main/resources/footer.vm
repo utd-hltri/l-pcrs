@@ -1,0 +1,21 @@
+<footer class="mdl-mini-footer" style="z-index: -1;">
+    <div class="mdl-mini-footer__left-section">
+        <div class="mdl-logo">MERCuRY</div>
+        <span>
+                Research was supported by the National Human Genome Research Institute of the National Institutes of Health under award number 1U01HG008468.
+                The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+            </span>
+    </div>
+    <!--
+    <div class="mdl-mini-footer__right-section">
+            <span>
+                <img src="../img/logo_hltri.png" class="footer-logo"></img>
+                Human Language Technology Research Institute
+            </span>
+        <span>
+                <img src="../img/logo_utd.png" class="footer-logo"></img>
+                University of Texas at Dallas
+            </span>
+    </div>
+    -->
+</footer>

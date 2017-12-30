@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: edu.utdallas.hltri.kirk:kirk-i2b2-models:1.0.0:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/edu.utdallas.hltri.kirk/kirk-i2b2-models/jars/kirk-i2b2-models-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/edu.utdallas.hltri.kirk/kirk-i2b2-models/srcs/kirk-i2b2-models-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

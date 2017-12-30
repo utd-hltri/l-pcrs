@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.google.code.externalsortinginjava:externalsortinginjava:0.1.10:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.google.code.externalsortinginjava/externalsortinginjava/jars/externalsortinginjava-0.1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.google.code.externalsortinginjava/externalsortinginjava/srcs/externalsortinginjava-0.1.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

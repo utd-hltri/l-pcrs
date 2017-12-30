@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+#set($id=$query.getId())
+#set($text=$query.getRawText())
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Question $id Visit $visit.getId()</title>
+    <link rel="stylesheet" href="../css/default.css" type="text/css"/>
+  </head>
+  <body>
+    <div id="content">
+      #parse("templates/query.vm")
+      #foreach($report in $visit)
+        #set($document=$report.getDocument())
+        #set($meta=$document.getMetaDataMap())
+        <div class="report">
+          <div class="meta">
+            <div><span class="label">Checksum:</span><span class="text">$document.getDocumentID()</span></div>
+            <div><span class="label">Type:</span><span class="text">$meta.get("type")</span></div>
+            <div><span class="label">Sub-Type:</span><span class="text">$meta.get("subtype")</span></div>
+            <div><span class="label">Chief Complaint:</span><span class="text">$meta.get("chief_complaint")</span></div>
+            <div><span class="label">Admit Diagnosis:</span><span class="text">$meta.get("admit_diagnosis")</span></div>
+            <div><span class="label">Discharge Diagnosis:</span><span class="text">$meta.get("discharge_diagnosis")</span></div>
+            <div><span class="label">Year:</span><span class="text">$meta.get("year")</span></div>
+           </div>
+          <div class="text">
+            $highlighter.highlightReport($report)
+          </div>
+        </div>
+      #end
+    </div>
+  </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../js/lib/jquery-1.7.1.min.js"><\/script>')</script>
+</html>

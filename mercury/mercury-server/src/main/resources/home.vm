@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("head.vm")
+    <script src="../js/search.js?3"></script>
+</head>
+<body>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+
+            <button id="admin-menu-home"
+                    class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+            </button>
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" style="width:175px;"
+                for="admin-menu-home">
+                <li class="mdl-menu__item">Advanced Search
+                    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-as">
+                        <input type="checkbox" id="switch-as" class="mdl-switch__input">
+                        <span class="mdl-switch__label"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="mdl-layout__content"  style="flex: 1 0 auto;">
+        <div class="page-content">
+            <section class="section--center search-pane">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--middle">
+                        <div class="search  -banner">
+                            <img src="../img/logo.png" align="middle" width="340px"></img>
+                            <h1 class="display-4 search-pane-title">MERCuRY</h1>
+                        </div>
+
+                        <br/>
+
+                        <span class=search-pane-subtitle">
+                            <strong>M</strong>ultimodal <strong>E</strong>lect<strong>r</strong>oencephalogram (EEG) Patient <strong>C</strong>ohort <strong>R</strong>etrieval S<strong>y</strong>stem
+                        </span>
+
+                        <br/>
+
+                        <form id="search" name="search" method="GET" action="./search" class="pull-left form-search">
+                            <div class="input-append searchbox">
+                                <i class="material-icons mdl-list__item-icon" id="icon">search</i>
+                                <input type="search" id="search" placeholder="Cohort descriptions" name="q" tabindex="1" />
+                                <!-- <label class="mdl-textfield__label" for="search">Cohort description</label> !-->
+                                <div class="adv-search hidden">
+                                    <label>Solr Weight:</label>
+                                    <input type="text" name="solrw" value="1.0" />
+                                </div>
+                                <div class="adv-search hidden">
+                                    <label>KG Weight:</label>
+                                    <input type="text" name="kgw" value="0.0" />
+                                </div>
+                                <div class="adv-search hidden">
+                                    <label>Signal Weight:</label>
+                                    <input type="text" name="sigw" value="0.0" />
+                                </div>
+                                <input type="submit" id="button" value="Search">
+                            </div>
+                        </form>
+
+                        <br/>
+
+                        <div>
+                        <b>or</b>
+
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select getmdl-select__fullwidth getmdl-select__fix-height" style="z-index: 10;">
+                            <input class="mdl-textfield__input" type="text" id="queries" value="Browse example cohorts" readonly tabIndex="-1">
+                            <label for="queries">
+                                <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                            </label>
+                            <ul for="queries" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                                #foreach($qid in $qids)
+                                    <li class="mdl-menu__item" data-val="$qid"><a href="browse?qid=$qid">$queries.get($qid)</a></li>
+                                #end
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    #parse("footer.vm")
+</div>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/scripts/bootstrap.min.js"></script>
+</body>
+</html>
+

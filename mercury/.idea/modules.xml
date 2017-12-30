@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eeg.iml" filepath="$PROJECT_DIR$/.idea/modules/eeg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eeg-build.iml" filepath="$PROJECT_DIR$/.idea/modules/eeg-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eeg-core.iml" filepath="$PROJECT_DIR$/.idea/modules/eeg-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eeg-core-build.iml" filepath="$PROJECT_DIR$/.idea/modules/eeg-core-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hltri-ml.iml" filepath="$PROJECT_DIR$/.idea/modules/hltri-ml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hltri-ml-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hltri-ml-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hltri-util.iml" filepath="$PROJECT_DIR$/.idea/modules/hltri-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hltri-util-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hltri-util-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hltri-util-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/hltri-util-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hltri-util-scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hltri-util-scala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inquire.iml" filepath="$PROJECT_DIR$/.idea/modules/inquire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inquire-build.iml" filepath="$PROJECT_DIR$/.idea/modules/inquire-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inquire-med.iml" filepath="$PROJECT_DIR$/.idea/modules/inquire-med.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inquire-med-build.iml" filepath="$PROJECT_DIR$/.idea/modules/inquire-med-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight.iml" filepath="$PROJECT_DIR$/.idea/modules/insight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight-build.iml" filepath="$PROJECT_DIR$/.idea/modules/insight-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight-ollie.iml" filepath="$PROJECT_DIR$/.idea/modules/insight-ollie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight-ollie-build.iml" filepath="$PROJECT_DIR$/.idea/modules/insight-ollie-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight-wiki.iml" filepath="$PROJECT_DIR$/.idea/modules/insight-wiki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight-wiki-build.iml" filepath="$PROJECT_DIR$/.idea/modules/insight-wiki-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/knowledge-graph.iml" filepath="$PROJECT_DIR$/.idea/modules/knowledge-graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/knowledge-graph-build.iml" filepath="$PROJECT_DIR$/.idea/modules/knowledge-graph-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/medbase.iml" filepath="$PROJECT_DIR$/.idea/modules/medbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/medbase-build.iml" filepath="$PROJECT_DIR$/.idea/modules/medbase-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mercury.iml" filepath="$PROJECT_DIR$/.idea/modules/mercury.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mercury-build.iml" filepath="$PROJECT_DIR$/.idea/modules/mercury-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ml-api.iml" filepath="$PROJECT_DIR$/.idea/modules/ml-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ml-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ml-api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ml-core.iml" filepath="$PROJECT_DIR$/.idea/modules/ml-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ml-core-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ml-core-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/report-annotations.iml" filepath="$PROJECT_DIR$/.idea/modules/report-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/report-annotations-build.iml" filepath="$PROJECT_DIR$/.idea/modules/report-annotations-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/report-interpretation.iml" filepath="$PROJECT_DIR$/.idea/modules/report-interpretation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/report-interpretation-build.iml" filepath="$PROJECT_DIR$/.idea/modules/report-interpretation-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scribe.iml" filepath="$PROJECT_DIR$/.idea/modules/scribe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scribe-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scribe-build.iml" />
+    </modules>
+  </component>
+</project>

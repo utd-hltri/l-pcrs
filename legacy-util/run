@@ -1,0 +1,7 @@
+#!/bin/bash
+dir=`dirname $0`
+uptime 1>&2
+memory=-Xmx2500m
+if [ `free -b | grep Mem: | awk '{print $2}'` -gt 5000000000 ] ; then memory=-Xmx10000m; fi
+echo $memory 1>&2
+java -server -ea -esa $memory -classpath $EXTRA_CLASSPATH:"$dir/dist/lib/*":dist/main.jar  "$@"

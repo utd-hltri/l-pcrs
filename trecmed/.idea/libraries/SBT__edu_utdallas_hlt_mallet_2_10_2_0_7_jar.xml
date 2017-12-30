@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: edu.utdallas.hlt:mallet_2.10:2.0.7:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/edu.utdallas.hlt/mallet_2.10/jars/mallet_2.10-2.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

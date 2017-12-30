@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.tika:tika-core:1.5:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.tika/tika-core/bundles/tika-core-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.tika/tika-core/srcs/tika-core-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

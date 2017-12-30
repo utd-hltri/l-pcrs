@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hltri-ml.iml" filepath="$PROJECT_DIR$/.idea/modules/hltri-ml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hltri-util.iml" filepath="$PROJECT_DIR$/.idea/modules/hltri-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inquire.iml" filepath="$PROJECT_DIR$/.idea/modules/inquire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inquire-med.iml" filepath="$PROJECT_DIR$/.idea/modules/inquire-med.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight.iml" filepath="$PROJECT_DIR$/.idea/modules/insight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight-ollie.iml" filepath="$PROJECT_DIR$/.idea/modules/insight-ollie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insight-wiki.iml" filepath="$PROJECT_DIR$/.idea/modules/insight-wiki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kirk.iml" filepath="$PROJECT_DIR$/.idea/modules/kirk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/medbase.iml" filepath="$PROJECT_DIR$/.idea/modules/medbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ml-api.iml" filepath="$PROJECT_DIR$/.idea/modules/ml-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ml-core.iml" filepath="$PROJECT_DIR$/.idea/modules/ml-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scribe.iml" filepath="$PROJECT_DIR$/.idea/modules/scribe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trecmed.iml" filepath="$PROJECT_DIR$/.idea/modules/trecmed.iml" />
+    </modules>
+  </component>
+</project>

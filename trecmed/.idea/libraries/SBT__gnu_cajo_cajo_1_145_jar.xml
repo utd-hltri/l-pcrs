@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: gnu.cajo:cajo:1.145:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/gnu.cajo/cajo/jars/cajo-1.145.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

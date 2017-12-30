@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ml-api" external.linked.project.path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target/classes" />
+    <output-test url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target/test-classes" />
+    <exclude-output />
+    <content url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api">
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/src/main/java" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/src/test/java" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/src/main/resources" type="java-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="hltri-util" exported="" />
+    <orderEntry type="module-library">
+      <library name="SBT: unmanaged-sources-and-docs">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.ws/jaxws-tools/srcs/jaxws-tools-2.2.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.21:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang.plugins:scala-continuations-library_2.11:1.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-web:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-slf4j-impl:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-jul:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-jcl:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-core:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-api:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-1.2-api:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-csv:1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: joda-time:joda-time:2.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: it.unimi.dsi:fastutil:7.0.12:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.3.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.lmax:disruptor:3.3.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.jsuereth:scala-arm_2.11:1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.googlecode.concurrent-trees:concurrent-trees:2.4.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.guava:guava:18.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.code.findbugs:jsr305:3.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.code.externalsortinginjava:externalsortinginjava:0.1.10:jar" level="project" />
+  </component>
+</module>

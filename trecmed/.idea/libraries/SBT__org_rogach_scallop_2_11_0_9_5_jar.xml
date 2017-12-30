@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.rogach:scallop_2.11:0.9.5:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.rogach/scallop_2.11/jars/scallop_2.11-0.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.rogach/scallop_2.11/srcs/scallop_2.11-0.9.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

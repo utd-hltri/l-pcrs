@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+#set($id=$query.getId())
+#set($text=$query.getRawText())
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Question $id: ${query.getRawText()}</title>
+    <link rel="stylesheet" href="css/default.css" type="text/css"/>
+  </head>
+  <body>
+    <div id="content">
+      #parse("templates/query.vm")
+      <div id="results">
+        <h1>Results:</h1>
+        <ol>
+          #foreach($visit in $visits)
+            #set($visitid=$visit.getId())
+            #set($relevancy=$eval.getRelevancy($id, $visitid))
+            <li>
+              <a href="${id}/${visit.getLinkableId()}.html">
+                <span class="rank">$eval.getVisitRank($id, $visitid)</span>
+                <span class="visitid">$visitid</span>
+                <span class=$relevancy>$relevancy</span>
+              </a>
+            </li>
+          #end
+        </ol>
+      </div>
+    </div>
+  </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/lib/jquery-1.7.1.min.js"><\/script>')</script>
+</html>

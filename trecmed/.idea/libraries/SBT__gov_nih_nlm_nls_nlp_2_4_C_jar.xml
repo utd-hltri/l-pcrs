@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: gov.nih.nlm.nls:nlp:2.4.C:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/gov.nih.nlm.nls/nlp/jars/nlp-2.4.C.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

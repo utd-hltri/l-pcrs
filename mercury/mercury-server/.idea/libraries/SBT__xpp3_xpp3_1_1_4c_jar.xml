@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: xpp3:xpp3:1.1.4c:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/xpp3/xpp3/jars/xpp3-1.1.4c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/xpp3/xpp3/srcs/xpp3-1.1.4c-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

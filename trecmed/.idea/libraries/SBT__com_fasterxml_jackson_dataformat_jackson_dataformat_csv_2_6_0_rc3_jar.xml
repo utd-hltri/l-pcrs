@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.6.0-rc3:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/bundles/jackson-dataformat-csv-2.6.0-rc3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/srcs/jackson-dataformat-csv-2.6.0-rc3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

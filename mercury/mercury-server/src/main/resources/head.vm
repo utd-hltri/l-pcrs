@@ -1,0 +1,33 @@
+#**
+ *  Provide elements for the <head> section of the HTML document
+ *#
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+ <title>MERCuRY</title>
+
+ <!-- Bootstrap -->
+ <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+ <!--<link rel="stylesheet" href="../css/material.min.css"  type="text/html" />-->
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.deep_purple-amber.min.css"  type="text/css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css" />
+<link rel="stylesheet" href="../css/custom.css?3"  type="text/css"/>
+<link rel="stylesheet" href="../css/getmdl-select.min.css"  type="text/css"/>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/lib/jquery-3.1.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/lib/material.min.js"></script>
+<script src="../js/lib/getmdl-select.min.js"></script>
+
+
+
+<!--
+<script src="../js/scripts/goog.math.Long.js"></script>
+<script src="../js/scripts/js-murmur3-128-1.0.0.min.js"></script>
+<script src="../js/scripts/bootstrap.min.js"></script>
+-->

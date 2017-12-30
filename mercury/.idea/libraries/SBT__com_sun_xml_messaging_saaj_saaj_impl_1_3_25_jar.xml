@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.sun.xml.messaging.saaj:saaj-impl:1.3.25:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.messaging.saaj/saaj-impl/jars/saaj-impl-1.3.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.messaging.saaj/saaj-impl/srcs/saaj-impl-1.3.25-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

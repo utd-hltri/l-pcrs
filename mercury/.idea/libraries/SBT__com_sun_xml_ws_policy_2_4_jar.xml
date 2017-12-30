@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.sun.xml.ws:policy:2.4:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.ws/policy/jars/policy-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.ws/policy/srcs/policy-2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

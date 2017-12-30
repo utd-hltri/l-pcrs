@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.jena:jena-iri:0.9.6:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.jena/jena-iri/jars/jena-iri-0.9.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.jena/jena-iri/srcs/jena-iri-0.9.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

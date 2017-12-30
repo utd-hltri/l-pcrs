@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.commons:commons-csv:1.4:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.commons/commons-csv/jars/commons-csv-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.commons/commons-csv/srcs/commons-csv-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

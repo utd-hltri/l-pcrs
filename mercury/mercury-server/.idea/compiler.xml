@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="eeg" target="1.8" />
+      <module name="eeg-core" target="1.8" />
+      <module name="hltri-ml" target="1.8" />
+      <module name="hltri-util" target="1.8" />
+      <module name="hltri-util-scala" target="1.8" />
+      <module name="inquire" target="1.8" />
+      <module name="inquire-med" target="1.8" />
+      <module name="insight" target="1.8" />
+      <module name="insight-ollie" target="1.8" />
+      <module name="insight-wiki" target="1.8" />
+      <module name="knowledge-graph" target="1.8" />
+      <module name="mercury-core" target="1.8" />
+      <module name="mercury-server" target="1.8" />
+      <module name="ml-api" target="1.8" />
+      <module name="ml-core" target="1.8" />
+      <module name="report-annotations" target="1.8" />
+      <module name="report-interpretation" target="1.8" />
+      <module name="scribe" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-Xlint:unchecked" />
+  </component>
+</project>

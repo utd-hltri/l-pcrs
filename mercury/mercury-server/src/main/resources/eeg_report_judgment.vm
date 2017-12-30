@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse( "head.vm" )
+    <script src="../js/main.js?2"></script>
+    <title>EEG Report #[[#]]# $reportId</title>
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title/logo -->
+                <div class="mdl-layout-title">MERCuRY</div>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+
+                <nav class="mdl-navigation judge-nav">
+                #if( ! $prev )
+                    <a class="mdl-button mdl-js-button--disabled" disabled="disabled">
+                #else
+                    <a class="mdl-button mdl-js-button" href="judge-report?qid=$queryId&rid=$prev">
+                #end
+                        <i class="material-icons">&#xE5C4;</i>
+                        Back
+                    </a>
+
+                #if( ! $next )
+                    <a class="mdl-button mdl-button--disabled" disabled="disabled">
+                #else
+                    <a class="mdl-button" href="judge-report?qid=$queryId&rid=$next">
+                #end
+                        <i class="material-icons">&#xE5C8;</i>
+                        Next
+                    </a>
+
+                    #if( $admin )
+                        <button id="admin-menu"
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-color--red-A200">
+                            Admin
+                            <i class="material-icons">more_vert</i>
+                        </button>
+
+                        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+                            for="admin-menu">
+                            <li class="mdl-menu__item">Highlight query terms
+                                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-hqt">
+                                    <input type="checkbox" id="switch-hqt" class="mdl-switch__input">
+                                </label>
+                            </li>
+                            <li class="mdl-menu__item">Show parsed query
+                                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-spq">
+                                    <input type="checkbox" id="switch-spq" class="mdl-switch__input">
+                                </label>
+                            </li>
+                            <li class="mdl-menu__item">Show report info
+                                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-sri">
+                                    <input type="checkbox" id="switch-sri" class="mdl-switch__input">
+                                </label>
+                            </li>
+                        </ul>
+                    #end
+
+                    <a class="mdl-button mdl-color--grey-100" href="welcome">
+                        <i class="material-icons">&#xE88A;</i>
+                        Home
+                    </a>
+                </nav>
+
+                        <!--
+                <button id="demo-menu-lower-right"
+                        class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                </button>
+
+                <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+                    for="demo-menu-lower-right">
+                    <li class="mdl-menu__item">Some Action</li>
+                    <li class="mdl-menu__item">Another Action</li>
+                    <li disabled class="mdl-menu__item">Disabled Action</li>
+                    <li class="mdl-menu__item">Yet Another Action</li>
+                </ul>
+                -->
+            </div>
+        </header>
+        <main class="mdl-layout__content"  style="flex: 1 0 auto;">
+            <div class="page-content">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col">
+                        <div class="mdl-shadow--4dp mdl-color--indigo-100 text-box">
+                            <h4 class="no-margin">Query</h4>
+                            <div class="no-margin">$q</div>
+                            <div id="parsed-query" class="no-margin hidden">
+                                <h6 class="no-margin">Parsed Query:</h6>
+                                $!pq
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--9-col">
+                            <div class="mdl-shadow--4dp mdl-color--grey-300 text-box">
+                            <h4 class="no-margin">EEG Report #[[#]]#$reportId</h4>
+                            <div class="report-text no-margin">
+                                #if($response.highlighting.get($reportId).get("text").get(0).trim())
+                                    $response.highlighting.get($reportId).get("text").get(0).trim()
+                                #else
+                                    $!esc.html($doc.getFieldValues("text").get(0).trim())
+                                #end
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col">
+                        <div id="report-info" class="mdl-shadow--4dp mdl-color--deep-purple-100 text-box report-info hidden">
+                            <b>Patient ID:</b>
+                            $doc.getFieldValues("patient_id").get(0)
+                            <br/>
+                            <b>Session No.:</b>
+                            $doc.getFieldValues("session_no").get(0)
+                            <br/>
+                            <b>Patient Age:</b>
+                            #if( $doc.getFieldValues("age").get(0) )
+                                $doc.getFieldValues("age").get(0)
+                            #else
+                                N/A
+                            #end
+                            <br/>
+                            <b>Patient Gender:</b>
+                            #if( $doc.getFieldValues("gender").get(0) )
+                                $doc.getFieldValues("gender").get(0)
+                            #else
+                                N/A
+                            #end
+                        </div>
+
+                        <div class="mdl-shadow--4dp mdl-color--deep-purple-100 text-box">
+                            <form action="save-judgment" method="post">
+                                <div>
+                                    <h3 class="no-margin">Judgment</h3>
+
+                                    #foreach ($judgmentOption in $judgmentOptions)
+                                        #if (${judgmentOption.getJudgment()} > -1)
+                                            <span>
+                                            <span>
+                                                <label id="judgment-${judgmentOption.getJudgment()}-label" class="mdl-radio mdl-js-radio" for="judgment-${judgmentOption.getJudgment()}">
+                                                    <input type="radio" class="mdl-radio__button" id="judgment-${judgmentOption.getJudgment()}" name="j" value="${judgmentOption.getJudgment()}" #if( $judgment == ${judgmentOption.getJudgment()}) checked="checked" #end >
+                                                    <span class="mdl-radio__label">$judgmentOption.label</span>
+                                                </label>
+                                                <div class="mdl-tooltip mdl-tooltip--large" for="judgment-${judgmentOption.getJudgment()}-label">
+                                                    ${judgmentOption.getDescription()}
+                                                </div>
+                                            </span>
+                                            <br/>
+                                        #end
+                                    #end
+                                </div>
+                                <div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <label class="mdl-textfield__label" for="explanation">Explanation...</label>
+                                        <textarea name="explanation" cols="40" rows="3" class="mdl-textfield__input explanation mdl-color--grey-100" id="explanation">$!explanation</textarea>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--amber-A200">Save</button>
+
+                                #if( $nextJudgable )
+                                  <a id="green-next" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--green-100 hidden" href="judge-report?qid=$queryId&rid=$nextJudgable">Next Un-judged</a>
+                                #else
+                                  <a id="green-next" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--green-100 hidden" href="welcome">Home</a>
+                                #end
+
+
+
+                                <input type="hidden" name="qid" value="$queryId"/>
+                                <input type="hidden" name="rid" value="$reportId"/>
+                            </form>
+                        </div>
+
+
+                        <div class="mdl-shadow--4dp text-box hidden" id="response-box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        #parse("footer.vm")
+    </div>
+</body>
+</html>

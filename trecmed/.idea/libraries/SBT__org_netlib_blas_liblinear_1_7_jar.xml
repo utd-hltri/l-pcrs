@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.netlib.blas:liblinear:1.7:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.netlib.blas/liblinear/jars/liblinear-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

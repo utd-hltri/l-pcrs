@@ -1,0 +1,315 @@
+.search-pane {
+  max-width: 900px;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+.key-list-action .mdl-list__item {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
+
+hr {
+  margin: 1em;
+}
+
+.no-margin {
+  margin: 0 ! important;
+}
+
+.text-box {
+  padding: 1em;
+  margin: 0 !important;
+}
+
+.report-info {
+  text-align: center;
+}
+
+/*
+footer {
+  position: absolute;
+  bottom: 0;
+}
+*/
+
+.report-info p {
+  color: #FFA000;
+  font-weight: bold;
+}
+
+.docid {
+  margin: 0 0 .25em;
+}
+
+.path {
+  font-style: italic;
+  color: #311B92;
+  margin: .25em 0 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.mdl-layout__content {
+  flex: 1 0 auto;
+}
+
+.text-box + .text-box {
+  margin-top: 14px !important;
+}
+
+.inline-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.query-list {
+  flex-shrink: 0;
+  height: 400px;
+}
+
+.highlight-on {
+  font-weight: bold;
+  font-style: normal;
+  color: #673AB7;
+}
+
+.concept-on {
+  font-weight: bold;
+  border-width: 2px;
+  border-radius: 4px;
+  border-style: solid;
+  padding: 0px 2px 0px 2px;
+}
+
+.activity-on {
+  border-color: #3F51B5;
+  background-color: #E8EAF6;
+}
+
+.problem-on {
+  border-color: #F44336;
+  background-color: #FFEBEE;
+}
+
+.test-on {
+  border-color: #4CAF50;
+  background-color: #E8F5E9;
+}
+
+.treatment-on {
+  border-color: #009688;
+  background-color: #E0F2F1;
+}
+
+.event-on {
+  border-color: #FF5722;
+  background-color: #FFF3E0;
+}
+
+.key-item {
+  color: #212121;
+  padding: 0px 0px 0px 5px;
+  margin-left: 12px;
+}
+
+nav .mdl-button + .mdl-button {
+  margin-right: 5px;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #673AB7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 105px;
+}
+
+
+.wrapper footer {
+  position: absolute;
+  bottom:0;
+  height: 40px;
+}
+
+footer .footer-logo {
+  max-width: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFA000;
+}
+
+.pagination {
+  font-size: 20px;
+}
+
+form {
+  z-index: 999;
+}
+
+div.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+div.dropdown button {
+  position: relative;
+  margin-top: 20px;
+  width: 600px;
+  margin-left: -5px;
+  background-color: #77BC69;
+  border-color: #367336;
+  font-weight: bold;
+}
+
+.dropdown-menu.active.open > a,
+.dropdown-menu.active.open > ul.dropdown-menu a:hover,
+.dropdown-menu.open > a,
+.dropdown-menu.open > ul.dropdown-menu a:hover {
+  background-color: #77BC69;
+  border-color: #367336;
+  font-weight: bold;
+  color: #fff;
+}
+
+#query-box {
+  vertical-align: bottom;
+  margin-left: 10px;
+  z-index: 2;
+}
+
+
+#icon {
+  position: relative;
+  left: 0px;
+  font-size: 20px;
+  /*top: -8px;
+  z-index: 999;
+  */
+}
+
+.arrow-down {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #77bc69;
+  left: -30px;
+  margin-top: 5px;
+}
+
+#drop3.content.open {
+  position: absolute !important;
+  top: 30px !important;
+  left: -10px !important;
+  width: 120% !important;
+}
+
+
+.snippet::before {
+  content: "...";
+  margin-right: 5px;
+}
+
+.snippet::after {
+  content: "...";
+  margin-right: 5px;
+}
+
+.report-text {
+  white-space: pre-line;
+}
+
+
+.searchbox {
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.searchbox input#search {
+  width: 600px;
+  margin-left: -30px;
+  padding-left: 30px;
+  font-size: 24px;
+}
+
+.searchbox input#button {
+  height: 40px;
+  width: 100px;
+  font-size: 24px;
+}
+
+#queries {
+  font-size: 24px;
+  background-color: #f5f5f5;
+  font-family: Cantarell;
+  border-width: 2px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #757575;
+  padding: 0px 0px 0px 2px;
+}
+
+#icon {
+  position: relative;
+  left: 0px;
+  font-size: 20px;
+  /*top: -8px;
+  z-index: 999;
+  */
+}
+
+/*This is for the clinical concept key*/
+.key-list-action {
+  width: 300px;
+}
+
+.attr-tbl {
+  width: 100%;
+  text-align: left;
+}
+
+.attr-td {
+  font-size: 12px;
+}
+
+.attr {
+  max-width: 300px
+}
+
+/*This is for the clinical concept key*/
+/*.attr-list-action {*/
+  /*width: 500px;*/
+/*}*/
+
+/*
+.searchbox input#search:hover, .searchbox input#search:focus, .searchbox input#search:active{
+    outline: #ff6600;
+}
+*/

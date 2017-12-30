@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.velocity:velocity:1.7:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.velocity/velocity/jars/velocity-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.velocity/velocity/srcs/velocity-1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

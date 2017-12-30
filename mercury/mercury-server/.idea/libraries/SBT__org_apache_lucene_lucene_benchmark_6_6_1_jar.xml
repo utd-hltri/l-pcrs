@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.lucene:lucene-benchmark:6.6.1:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.lucene/lucene-benchmark/jars/lucene-benchmark-6.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.lucene/lucene-benchmark/srcs/lucene-benchmark-6.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.springframework:spring-core:2.5.6.SEC01:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.springframework/spring-core/jars/spring-core-2.5.6.SEC01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.springframework/spring-core/srcs/spring-core-2.5.6.SEC01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Monitor packages in edu.utdallas for updates every 30 seconds -->
+<Configuration status="warn" name="HLTRI" packages="edu.utdallas" monitorInterval="10">
+
+  <Properties>
+    <!-- Filter stack traces with the following packages -->
+    <Property name="filters">org.junit,org.apache.maven,sun.reflect,java.lang.reflect</Property>
+  </Properties>
+
+  <Appenders>
+    <!-- Console appender, designed to show info and debug messages only -->
+    <Console name="console" target="SYSTEM_OUT">
+      <filters>
+        <!--
+        <BurstFilter level="INFO" rate="32" maxBurst="256"/>
+        -->
+        <BurstFilter level="DEBUG" rate="16" maxBurst="128"/>
+      </filters>
+      <PatternLayout pattern="%style{%d{MM-dd HH:mm:ss.SSS}}{dim,magenta} | %t | %c{1} | %highlight{%-5level: %msg%n%xEx{filters(${filters})}}"/>
+    </Console>
+    <!-- File appender, logs trace and above messages -->
+    <RollingRandomAccessFile name="file-all" fileName="log/log-${hostName}.txt"
+                 filePattern="log/$${date:yyy-MM}/${hostName}-%d{MM-dd-yyyy}-%i.log.gz"
+                 immediateFlush="true" append="false">
+      <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>
+      <Policies>
+        <OnStartupTriggeringPolicy />
+        <TimeBasedTriggeringPolicy />
+        <SizeBasedTriggeringPolicy size="4 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="20"/>
+    </RollingRandomAccessFile>
+  </Appenders>
+
+
+  <Loggers>
+    <!-- Set logging thresholds for various packages -->
+    <Logger name="gate.util.GateClassLoader" level="error"/>
+    <Logger name="gate" level="warn"/>
+    <Logger name="org.apache" level="info" />
+    <Logger name="gov.nih" level="warn" />
+    <Logger name="edu.stanford" level="warn" />
+    <Logger name="com.joestelmach.natty" level="warn" />
+    <Logger name="org.apache.velocity" level="trace" />
+
+    <Logger name="edu.utdallas.hltri.scribe.text.Document" level="error"/>
+
+    <!-- For HLTRI code, log all trace messages to the file appender, and
+         log debug messages to the console. Set additivity to "false" to prevent also logging
+         messages from this logger with the root logger. -->
+    <Logger name="edu.utdallas" level="trace" additivity="false">
+      <AppenderRef level="debug" ref="console"/>
+      <AppenderRef level="trace" ref="file-all"/>
+    </Logger>
+
+    <!-- By default, the root logger will only log "info" messages.
+         If a per-package logger was set to debug or trace, the root logger will log debug-level
+         messages to the file appender. -->
+    <Root level="info">
+      <AppenderRef level="info" ref="console"/>
+      <AppenderRef level="debug" ref="file-all"/>
+    </Root>
+  </Loggers>
+</Configuration>

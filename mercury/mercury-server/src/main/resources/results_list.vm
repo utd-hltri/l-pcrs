@@ -1,0 +1,11 @@
+#if( $results.size() > 0 )
+<ol class="mdl-list">
+  #set( $i = $math.add($math.mul($math.sub($pageNum, 1), $resultsPerPage), 1) )
+  #foreach( $item in $results )
+    <li value="$i" class="mdl-list__item">
+      #parse("hit.vm")
+    </li>
+    #set( $i = $i + 1)
+  #end
+</ol>
+#end

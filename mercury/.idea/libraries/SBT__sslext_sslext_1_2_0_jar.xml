@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: sslext:sslext:1.2-0:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/sslext/sslext/jars/sslext-1.2-0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/sslext/sslext/srcs/sslext-1.2-0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

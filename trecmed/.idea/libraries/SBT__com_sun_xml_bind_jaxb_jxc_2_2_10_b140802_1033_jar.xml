@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.sun.xml.bind:jaxb-jxc:2.2.10-b140802.1033:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.bind/jaxb-jxc/jars/jaxb-jxc-2.2.10-b140802.1033.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.bind/jaxb-jxc/srcs/jaxb-jxc-2.2.10-b140802.1033-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

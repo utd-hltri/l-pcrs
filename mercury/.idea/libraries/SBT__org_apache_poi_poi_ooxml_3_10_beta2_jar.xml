@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.poi:poi-ooxml:3.10-beta2:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.poi/poi-ooxml/jars/poi-ooxml-3.10-beta2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.poi/poi-ooxml/srcs/poi-ooxml-3.10-beta2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

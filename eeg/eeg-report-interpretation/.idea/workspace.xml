@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="068a90a1-c47e-4e42-b508-8106edc65233" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="section_recovery_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/section_recovery_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="e#73#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section_recoverer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/section_recoverer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8316">
+              <caret line="487" column="61" lean-forward="false" selection-start-line="487" selection-start-column="61" selection-end-line="487" selection-end-column="61" />
+              <folding>
+                <element signature="e#40#78#0" expanded="true" />
+                <marker date="1509736728656" expanded="true" signature="3288:3780" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="3816:3978" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="3905:3978" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="4013:4153" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="4080:4153" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="4188:4285" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="4327:6030" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="5190:5292" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="5468:5752" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="5762:6013" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="6168:8272" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="6408:7404" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="7513:8241" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="7749:8241" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="8355:8850" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="8653:8849" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="8894:9070" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="9116:9354" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="9537:15983" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="9896:12133" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="10530:10932" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="11280:11429" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="12160:13912" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="12518:13268" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="13486:13642" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="14100:15778" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="14304:15778" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="16029:19018" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="16427:17547" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="16740:17135" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="17149:17547" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="17628:18525" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="17773:18525" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="18029:18525" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="18067:18523" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="18699:18945" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="19055:20141" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="19269:20141" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="19403:20141" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="19635:20141" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="20014:20141" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="20270:23000" ph="..." />
+                <marker date="1509736728656" expanded="true" signature="23041:24774" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="language_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/language_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="record_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/record_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="162" column="40" lean-forward="false" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
+              <folding>
+                <element signature="e#757#794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eeg_data_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/eeg_data_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mtrand.py" pinned="false" current-in-tab="false">
+        <entry file="file:///travis/.PyCharm/system/python_stubs/-1247972723/numpy/random/mtrand.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31698">
+              <caret line="1765" column="4" lean-forward="false" selection-start-line="1765" selection-start-column="4" selection-end-line="1765" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trace_logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/trace_logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="significance_tests.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/significance_tests.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/devel</find>
+      <find>max_record_sentences</find>
+      <find>truncate_input</find>
+      <find>_logits</find>
+      <find>_get_word_error_rate</find>
+      <find>setLoggerClass</find>
+      <find>logits_to_outputs</find>
+      <find>min_se</find>
+      <find>min_</find>
+      <find>train_sections</find>
+      <find>self._</find>
+      <find>xrange</find>
+      <find>max_vocabulary_size</find>
+      <find>devel</find>
+      <find>create_voc</find>
+      <find>Batcher</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/TraceLogger.py" />
+        <option value="$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/trace_logger.py" />
+        <option value="$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/language_utils.py" />
+        <option value="$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/eeg_data_utils.py" />
+        <option value="$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/section_recovery_model.py" />
+        <option value="$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/section_recoverer.py" />
+        <option value="$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/record_data.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="180" />
+    <option name="y" value="287" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eeg-report-interpretation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg-report-interpretation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg-report-interpretation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg-report-interpretation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg-report-interpretation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg-report-interpretation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg-report-interpretation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg-report-interpretation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg-report-interpretation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg-report-interpretation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hltri" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg-report-interpretation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg-report-interpretation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hltri" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg-report-interpretation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg-report-interpretation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hltri" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg-report-interpretation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg-report-interpretation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="hltri" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="section_recovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="068a90a1-c47e-4e42-b508-8106edc65233" name="Default" comment="" />
+      <created>1502486621000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502486621000</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="180" y="287" width="1680" height="1024" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///travis/.PyCharm/system/python_stubs/-1247972723/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="4339" column="8" lean-forward="false" selection-start-line="4339" selection-start-column="8" selection-end-line="4339" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python2.7/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="176" column="4" lean-forward="false" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/eeg_data_utils.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/section_recovery_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#73#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/section_recoverer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8316">
+          <caret line="487" column="61" lean-forward="false" selection-start-line="487" selection-start-column="61" selection-end-line="487" selection-end-column="61" />
+          <folding>
+            <element signature="e#40#78#0" expanded="true" />
+            <marker date="1509736728656" expanded="true" signature="3288:3780" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="3816:3978" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="3905:3978" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="4013:4153" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="4080:4153" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="4188:4285" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="4327:6030" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="5190:5292" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="5468:5752" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="5762:6013" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="6168:8272" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="6408:7404" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="7513:8241" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="7749:8241" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="8355:8850" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="8653:8849" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="8894:9070" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="9116:9354" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="9537:15983" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="9896:12133" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="10530:10932" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="11280:11429" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="12160:13912" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="12518:13268" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="13486:13642" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="14100:15778" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="14304:15778" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="16029:19018" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="16427:17547" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="16740:17135" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="17149:17547" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="17628:18525" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="17773:18525" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="18029:18525" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="18067:18523" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="18699:18945" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="19055:20141" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="19269:20141" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="19403:20141" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="19635:20141" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="20014:20141" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="20270:23000" ph="..." />
+            <marker date="1509736728656" expanded="true" signature="23041:24774" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/language_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/eeg_data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///travis/.PyCharm/system/python_stubs/-1247972723/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31698">
+          <caret line="1765" column="4" lean-forward="false" selection-start-line="1765" selection-start-column="4" selection-end-line="1765" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/trace_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/significance_tests.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/hltri/eeg/text/section_recovery/record_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="162" column="40" lean-forward="false" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
+          <folding>
+            <element signature="e#757#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+#set($nan = "NaN")
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/default.css" type="text/css"/>
+  </head>
+  <body>
+    <div id="content">
+      <div id="questions">
+        <h1>Questions:</h1>
+        <ol>
+          #foreach($query in $questions)
+            <li>
+              #set($id=$query.getId())
+              <a href="${id}.html">
+                <h2 class="queryid">Question $id:</h2>
+                <span>$query.getRawText()</span>
+                #foreach($measure in $measures)
+                  #set($val=$eval.getOfficialMeasure($id, $measure))
+                  #if($val == $nan)
+                    <div class="measure">
+                      <span class="label">$measure</span>
+                      <span class="text">$val</span>
+                      #set($width=$val * 100)
+                      <div class="meter-wrap">
+                        <div class="meter $measure" style="width: ${width}%">
+                          <!---->
+                        </div>
+                      </div>
+                    </div>
+                  #end
+                #end
+              </a>
+            </li>
+          #end
+        </ol>
+      </div>
+    </div>
+  </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/lib/jquery-1.7.1.min.js"><\/script>')</script>
+</html>

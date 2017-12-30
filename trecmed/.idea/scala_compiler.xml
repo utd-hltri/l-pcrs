@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="SBT 1" modules="hltri-ml,ml-api,ml-core,inquire,inquire-med,insight,insight-ollie,insight-wiki,medbase,kirk" />
+    <profile name="SBT 2" modules="hltri-util">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-1.7" />
+      </parameters>
+    </profile>
+    <profile name="SBT 3" modules="scribe">
+      <option name="deprecationWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-1.7" />
+      </parameters>
+    </profile>
+    <profile name="SBT 4" modules="trecmed">
+      <option name="deprecationWarnings" value="true" />
+    </profile>
+  </component>
+</project>

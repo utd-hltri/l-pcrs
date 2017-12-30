@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: info.picocli:picocli:0.9.7:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/info.picocli/picocli/jars/picocli-0.9.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/info.picocli/picocli/srcs/picocli-0.9.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

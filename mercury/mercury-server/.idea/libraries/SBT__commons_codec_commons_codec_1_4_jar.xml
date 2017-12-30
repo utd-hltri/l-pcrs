@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: commons-codec:commons-codec:1.4:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

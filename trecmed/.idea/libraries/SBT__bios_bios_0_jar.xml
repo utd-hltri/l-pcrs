@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: bios:bios:0:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/bios/bios/jars/bios-0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

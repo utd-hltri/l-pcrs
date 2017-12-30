@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="$USER_HOME$/local/noarch/bin/sbt-launch.jar" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/project" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe" />
+            <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="0.13.15" />
+        <option name="useSbtShell" value="true" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8af26aa7-971e-42f8-9d9b-0e90e7502d45" name="Default" comment="" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="RestApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/RestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/api/ApiServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="185" column="18" lean-forward="true" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/api/ApiServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="121" />
+    <option name="y" value="27" />
+    <option name="width" value="1350" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mercury-server/build.sbt" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1505151956832" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="eeg" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="eeg" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="eeg-core" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="knowledge-graph" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="report-annotations" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="report-interpretation" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-ml" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ml-api" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ml-core" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-util" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-util-scala" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inquire" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inquire-med" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-ollie" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-wiki" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="medbase" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mercury" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scribe" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="eeg-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="eeg-core-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="knowledge-graph-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="report-annotations-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="report-interpretation-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-ml-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ml-api-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ml-core-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-util-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-util-scala-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inquire-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inquire-med-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-ollie-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-wiki-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="medbase-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mercury-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scribe-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8af26aa7-971e-42f8-9d9b-0e90e7502d45" name="Default" comment="" />
+      <created>1505151492476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505151492476</updated>
+      <workItem from="1505151496049" duration="1058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1058000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="121" y="27" width="1680" height="1024" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/RestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/api/ApiServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="185" column="18" lean-forward="true" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

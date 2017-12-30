@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: mill:mill:0.0.2:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/mill/mill/jars/mill-0.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

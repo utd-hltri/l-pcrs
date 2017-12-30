@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.databinder:unfiltered_2.10:0.7.0:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/net.databinder/unfiltered_2.10/jars/unfiltered_2.10-0.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/net.databinder/unfiltered_2.10/srcs/unfiltered_2.10-0.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

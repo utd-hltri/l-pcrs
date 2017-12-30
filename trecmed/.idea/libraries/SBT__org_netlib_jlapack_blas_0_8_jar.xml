@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.netlib.jlapack:blas:0.8:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.netlib.jlapack/blas/jars/blas-0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

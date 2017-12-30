@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: nz.ac.waikato.cms.weka:weka-dev:3.7.9:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/nz.ac.waikato.cms.weka/weka-dev/jars/weka-dev-3.7.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/nz.ac.waikato.cms.weka/weka-dev/srcs/weka-dev-3.7.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.sun.org.apache.xml.internal:resolver:20050927:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.org.apache.xml.internal/resolver/jars/resolver-20050927.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.org.apache.xml.internal/resolver/srcs/resolver-20050927-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

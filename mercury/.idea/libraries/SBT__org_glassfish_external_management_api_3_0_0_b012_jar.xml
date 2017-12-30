@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.glassfish.external:management-api:3.0.0-b012:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.glassfish.external/management-api/jars/management-api-3.0.0-b012.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

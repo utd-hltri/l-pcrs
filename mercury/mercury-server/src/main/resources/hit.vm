@@ -1,0 +1,27 @@
+#set($doc = $item.getValue())
+#set($docId = $doc.getFieldValues("record_id").get(0))
+
+<div class="mdl-list__item-primary-content">
+    <i class="material-icons mdl-list__item-icon">person</i>
+    <div>
+        <div>
+            <h5 class="headline docid"><a href="view?id=$docId">EEG Report #[[#]]#$docId</a></h5>
+        </div>
+        <div class="mdl-list__item-text-body snippet">
+          #if($response.highlighting.get($docId).get("text").get(0))
+              #set($pad = "")
+              #foreach($v in $response.highlighting.get($docId).get("text"))
+                  $pad$v##  #TODO: $esc.html() or maybe make that optional?
+                  #set($pad = " ... ")
+              #end
+          #else
+              #foreach($v in $doc.getFieldValues($f))$esc.html($v)
+              #end
+          #end
+        </div>
+        <div class="path">
+            ${doc.getFieldValues("path").get(0).replaceAll("/shared/aifiles/disk1/travis/data/corpora/tuh_eeg/v0.6.0_edf/", "")}
+        </div>
+    </div>
+</div>
+

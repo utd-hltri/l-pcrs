@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: uk.ac.gate:gate-core:8.0:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/uk.ac.gate/gate-core/jars/gate-core-8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/uk.ac.gate/gate-core/srcs/gate-core-8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

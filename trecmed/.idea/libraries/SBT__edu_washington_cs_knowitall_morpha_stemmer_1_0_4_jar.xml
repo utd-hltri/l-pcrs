@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: edu.washington.cs.knowitall:morpha-stemmer:1.0.4:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/edu.washington.cs.knowitall/morpha-stemmer/jars/morpha-stemmer-1.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/edu.washington.cs.knowitall/morpha-stemmer/srcs/morpha-stemmer-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

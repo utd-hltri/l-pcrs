@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b28d9276-c2b4-4423-b7ab-828527a13e18" name="Default" comment="Merge branch 'dev' of bitbucket.org:tgood/hltri-shared into dev&#10;&#10;# Conflicts:&#10;#&#9;eeg/build.sbt">
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/RelNetServer.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/RelnetDataGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/relation/AEEegRelation.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/relation/EAEegRelation.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/relation/EEEegRelation.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/relation/EegRelation.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/relation/RelationBratCorpus.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/classifier/AttributeClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/feature/OtherAttributeFeatureExtractor.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/scripts/CountConcepts.java" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/SimpleModel.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/create_instances.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/dynamic_memory_cell.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/dynamic_relational_memory_cell.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/experiment.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/hooks.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/inputs.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/main.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/model.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/model_ops.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/prep_data.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/prep_data_attr.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/random_classifier.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/relnet/serving.py" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/python/relation/tensorflow-gpu" />
+      <change type="NEW" beforePath="" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/src/main/java/edu/utdallas/hltri/util/Offset.java" />
+      <change type="DELETED" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/deeplearn/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/deeplearn/build.sbt" afterPath="" />
+      <change type="DELETED" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/deeplearn/project/build.properties" afterPath="" />
+      <change type="DELETED" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/deeplearn/project/plugins.sbt" afterPath="" />
+      <change type="DELETED" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-config/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-config/build.sbt" afterPath="" />
+      <change type="DELETED" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/trec-car/src/main/python/relevance/RelevanceModel.py" afterPath="" />
+      <change type="DELETED" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/trec-car/src/main/python/testorflow.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/Data.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/Data.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/annotation/EegActivity.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/annotation/EegActivity.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/io/EegActivityBratCorpus.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/io/EegActivityBratCorpus.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/io/EegEventBratCorpus.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/io/EegEventBratCorpus.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/build.sbt" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/build.sbt" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/ConceptNormalization.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/ConceptNormalization.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/ExtractTriples.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/ExtractTriples.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/python/transe/eval.py" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/python/transe/eval.py" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/python/transe/models.py" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/python/transe/models.py" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/TensorflowUtils.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/TensorflowUtils.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/al/ActiveLearning.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/al/ActiveLearning.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/annotators/EegConceptAnnotator.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/annotators/EegConceptAnnotator.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/annotators/TfBoundaryAnnotator.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/annotators/TfBoundaryAnnotator.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/classifier/Svm.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/classifier/Svm.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/feature/ConceptSpanFeatureExtractor.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/feature/ConceptSpanFeatureExtractor.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/feature/ContextFeatureExtractor.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/feature/ContextFeatureExtractor.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/feature/FeatureUtils.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/feature/FeatureUtils.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/scripts/AnnotateConcepts.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/scripts/AnnotateConcepts.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/scripts/AnnotateQueries.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/scripts/AnnotateQueries.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/scripts/CrossValidation.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/src/main/java/edu/utdallas/hltri/eeg/scripts/CrossValidation.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/build.sbt" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/build.sbt" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/src/main/java/edu/utdallas/hltri/framework/Commands.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/src/main/java/edu/utdallas/hltri/framework/Commands.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/src/main/java/edu/utdallas/hltri/util/Expansion.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/src/main/java/edu/utdallas/hltri/util/Expansion.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/src/main/java/edu/utdallas/hltri/inquire/ANN.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/src/main/java/edu/utdallas/hltri/inquire/ANN.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/CohortQueryParser.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/CohortQueryParser.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptCohortQueryParser.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptCohortQueryParser.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptUtils.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptUtils.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/relevance/KgRelevanceScorer.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/relevance/KgRelevanceScorer.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/scripts/SolrIndexer.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/scripts/SolrIndexer.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/MercuryServlet.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/MercuryServlet.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/io/BratCorpus.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/io/BratCorpus.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/annotation/Annotation.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/annotation/Annotation.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/annotation/Event.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/annotation/Event.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/annotation/attributes/HasModality.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/annotation/attributes/HasModality.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/annotation/attributes/HasPolarity.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/annotation/attributes/HasPolarity.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/relation/AbstractRelation.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/relation/AbstractRelation.java" />
+      <change type="MODIFICATION" beforePath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/relation/UnsafeRelation.java" afterPath="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/relation/UnsafeRelation.java" />
+    </list>
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/project/project/target/" />
+    <ignored path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LuceneSearchEngine.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/src/main/java/edu/utdallas/hltri/inquire/lucene/LuceneSearchEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="87" column="54" lean-forward="false" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CohortL2rProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/src/main/java/edu/utdallas/hltri/inquire/l2r/CohortL2rProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CRFSVectorizer.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/src/main/java/edu/utdallas/hltri/ml/feature/CRFSVectorizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#928#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrfsFeatureVector.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/src/main/java/edu/utdallas/hltri/ml/classify/CrfsFeatureVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1219">
+              <caret line="73" column="11" lean-forward="false" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+              <folding>
+                <element signature="e#1822#1823#0" expanded="true" />
+                <element signature="e#1862#1863#0" expanded="true" />
+                <element signature="e#1911#1912#0" expanded="true" />
+                <element signature="e#1939#1940#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelnetDataGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/RelnetDataGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="71" column="15" lean-forward="false" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDocument.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/BaseDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Document.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/Document.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10626">
+              <caret line="500" column="15" lean-forward="false" selection-start-line="500" selection-start-column="15" selection-end-line="500" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Property.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/Property.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentAttribute.java" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/DocumentAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>throwable</find>
+      <find>Throwables.propagate</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>new RuntimeException</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/lucene/IndexedEegNote.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/lucene/EegSearchEngine.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptCohortQueryParser.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/RankedDocsByQuery.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/src/main/java/edu/utdallas/hlt/medbase/metamaplite/MetaMapLiteWrapper.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/build.sbt" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/ConceptNormalization.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/api/ApiServlet.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/build.sbt" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/build.sbt" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/build.sbt" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/build.sbt" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/src/main/java/edu/utdallas/hltri/inquire/lucene/LuceneSearchEngine.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/BaseDocument.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/Document.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/src/main/java/edu/utdallas/hltri/inquire/l2r/CohortL2rProcessor.java" />
+        <option value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/src/main/java/edu/utdallas/hltri/ml/classify/CrfsFeatureVector.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="121" />
+    <option name="y" value="27" />
+    <option name="width" value="1350" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg-knowledge-graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg-knowledge-graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg-knowledge-graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg-knowledge-graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg-knowledge-graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eeg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: commons-codec:commons-codec:1.9:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: org.apache.commons:commons-compress:1.4.1:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: org.slf4j:slf4j-api:1.7.21:jar" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: org.slf4j:slf4j-api:1.7.21:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="slf4j-api-1.7.21.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: org.slf4j:slf4j-api:1.7.21:jar" type="70bed36:NamedLibraryElementNode" />
+              <item name="slf4j-api-1.7.21.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="slf4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
+              <item name="process-0.13.15.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="eeg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SBT: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
+              <item name="process-0.13.15.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../disprog" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1505152885809" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="eeg" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="eeg" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="eeg-core" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="knowledge-graph" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="report-annotations" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="report-interpretation" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-ml" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ml-api" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ml-core" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-util" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-util-scala" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inquire" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inquire-med" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-ollie" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-wiki" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="medbase" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mercury-core" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mercury-server" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scribe" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="eeg-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="eeg-core-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="knowledge-graph-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="report-annotations-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-annotations/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="report-interpretation-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-report-interpretation/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-ml-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ml-api-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-api/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ml-core-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-util-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hltri-util-scala-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/hltri-util-scala/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inquire-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inquire-med-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-ollie-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-ollie/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="insight-wiki-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/insight/insight-wiki/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="medbase-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mercury-core-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mercury-server-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/project" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scribe-build" />
+                <option name="path" value="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b28d9276-c2b4-4423-b7ab-828527a13e18" name="Default" comment="" />
+      <created>1505152609065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505152609065</updated>
+      <workItem from="1505152623904" duration="6979000" />
+      <workItem from="1506705939729" duration="5909000" />
+      <workItem from="1508789765630" duration="80000" />
+      <workItem from="1509569702413" duration="33000" />
+    </task>
+    <task id="LOCAL-00001" summary="feature(???): fixed ml-core and updated mercury">
+      <created>1507753693615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507753693615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13001000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="121" y="27" width="1680" height="1024" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25885227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feature(???): fixed ml-core and updated mercury" />
+    <MESSAGE value="Merge branch 'dev' of bitbucket.org:tgood/hltri-shared into dev&#10;&#10;# Conflicts:&#10;#&#9;eeg/build.sbt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'dev' of bitbucket.org:tgood/hltri-shared into dev&#10;&#10;# Conflicts:&#10;#&#9;eeg/build.sbt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/src/main/java/edu/utdallas/hltri/ml/classify/CrfsFeatureVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="73" column="11" lean-forward="false" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+          <folding>
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/BaseDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10626">
+          <caret line="500" column="15" lean-forward="false" selection-start-line="500" selection-start-column="15" selection-end-line="500" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/DocumentAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/RelnetDataGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="71" column="15" lean-forward="true" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/api/ApiServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3749">
+          <caret line="185" column="53" lean-forward="false" selection-start-line="185" selection-start-column="53" selection-end-line="185" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/MercurySearchEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/CohortQueryParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2714">
+          <caret line="141" column="52" lean-forward="false" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptCohortQueryParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="104" column="62" lean-forward="false" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="86" column="57" lean-forward="false" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/src/main/java/edu/utdallas/hlt/medbase/metamaplite/MetaMapLiteWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/ConceptNormalization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding>
+            <marker date="1507753751536" expanded="true" signature="3316:4340" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="6910:6923" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="6991:7041" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="7102:7577" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="7656:10835" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="8304:8492" ph="//..." />
+            <marker date="1507753751536" expanded="true" signature="9664:9990" ph="//..." />
+            <marker date="1507753751536" expanded="true" signature="10067:10260" ph="//..." />
+            <marker date="1507753751536" expanded="true" signature="10272:10651" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/lucene/IndexedEegNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-core/src/main/java/edu/utdallas/hltri/eeg/EegNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/src/main/java/edu/utdallas/hltri/inquire/lucene/DocumentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/jamia/scripts/JamiaVectorizer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/lucene/EegSearchEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/RankedDocsByQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="44" column="2" lean-forward="false" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-util/src/main/java/edu/utdallas/hltri/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="679" column="12" lean-forward="false" selection-start-line="679" selection-start-column="12" selection-end-line="679" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.21-sources.jar!/org/slf4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="656" column="16" lean-forward="false" selection-start-line="656" selection-start-column="16" selection-end-line="656" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/medbase/src/main/java/edu/utdallas/hlt/medbase/metamaplite/MetaMapLiteWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/MercurySearchEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/CohortQueryParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2714">
+          <caret line="141" column="52" lean-forward="false" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptCohortQueryParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="104" column="62" lean-forward="false" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/src/main/java/edu/utdallas/hltri/mercury/ConceptUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="86" column="57" lean-forward="false" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/ConceptNormalization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <marker date="1507753751536" expanded="true" signature="3316:4340" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="6910:6923" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="6991:7041" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="7102:7577" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="7656:10835" ph="{...}" />
+            <marker date="1507753751536" expanded="true" signature="8304:8492" ph="//..." />
+            <marker date="1507753751536" expanded="true" signature="9664:9990" ph="//..." />
+            <marker date="1507753751536" expanded="true" signature="10067:10260" ph="//..." />
+            <marker date="1507753751536" expanded="true" signature="10272:10651" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/src/main/java/edu/utdallas/hltri/mercury/api/ApiServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3726">
+          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///shared/hltdir1/disk1/home/travis/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.15/process-0.13.15.jar!/sbt/ProcessBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///shared/hltdir1/disk1/home/travis/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.15/process-0.13.15.jar!/sbt/ProcessExtra.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///shared/hltdir1/disk1/home/travis/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.15/process-0.13.15.jar!/sbt/Process.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="52" lean-forward="false" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-server/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1012">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/mercury/mercury-core/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/Untitled.ipynb" />
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/src/main/java/edu/utdallas/hltri/inquire/lucene/LuceneSearchEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="87" column="54" lean-forward="false" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/DocumentAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/BaseDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe/src/main/java/edu/utdallas/hltri/scribe/text/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10626">
+          <caret line="500" column="15" lean-forward="false" selection-start-line="500" selection-start-column="15" selection-end-line="500" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/inquire/inquire-med/src/main/java/edu/utdallas/hltri/inquire/l2r/CohortL2rProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/src/main/java/edu/utdallas/hltri/ml/feature/CRFSVectorizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/hltri-ml/hltri-ml-core/src/main/java/edu/utdallas/hltri/ml/classify/CrfsFeatureVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="73" column="11" lean-forward="false" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+          <folding>
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/eeg/eeg-knowledge-graph/src/main/java/edu/utdallas/hltri/eeg/RelnetDataGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="71" column="15" lean-forward="false" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

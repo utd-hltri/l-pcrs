@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.struts:struts-core:1.3.8:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.struts/struts-core/jars/struts-core-1.3.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/org.apache.struts/struts-core/srcs/struts-core-1.3.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

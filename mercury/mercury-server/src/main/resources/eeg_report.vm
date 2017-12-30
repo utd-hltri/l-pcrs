@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    #parse("head.vm")
+    <script src="../js/report.js?2"></script>
+    <title>EEG Report #[[#]]# $reportId</title>
+</head>
+<body>
+
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title/logo -->
+                <div class="mdl-layout-title">MERCuRY</div>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+
+                <div id="query-box" style="width:700px;margin:auto;text-align:center">
+                    <form id="query-form" name="search" class="pull-left form-search" action="search" method="GET">
+                        <div class="input-append searchbox">
+                            <span class="glyphicon glyphicon-search" id="icon" style="display:inline-block;vertical-align:middle" ></span>
+                            <textarea type="search" id="search" name="q" wrap="soft" cols="80" tabindex="1" style="display:table-cell;vertical-align:middle;border:none,resize:none,overflow:hidden">$!q</textarea>
+                            <script>
+                                $('textarea').each(function () {
+                                    this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;display:table-cell;vertical-align:middle');
+                                }).on('input', function () {
+                                    this.style.height = 'auto';
+                                    this.style.height = (this.scrollHeight) + 'px';
+                                })
+                                        .on('keydown', function(event) {
+                                            if (event.keyCode == 13) {
+                                                $(this.form).submit()
+                                                return false;
+                                            }
+                                        })
+                            </script>
+                            <input type="submit" value="Search" class="mdl-button mdl-js-button mdl-button--raised mdl-color--amber-A200">
+                        </div>
+                    </form>
+                </div>
+
+                <button id="admin-menu"
+                        class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                </button>
+
+                <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" style="width:175px;"
+                    for="admin-menu">
+                    <li class="mdl-menu__item">Show Annotations
+                        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-sa">
+                            <input type="checkbox" id="switch-sa" class="mdl-switch__input">
+                            <span class="mdl-switch__label"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="mdl-layout__content" style="flex: 1 0 auto;">
+            <div class="page-content mdl-grid">
+                <div class="mdl-cell mdl-cell--9-col">
+                    <div class="mdl-shadow--4dp mdl-color--grey-300 text-box">
+                        <h3 class="no-margin">EEG Report #[[#]]#$reportId</h3>
+                        <p class="report-text no-margin">
+                            $docString
+                            $attrs
+                        </p>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col">
+                    <div class="mdl-shadow--4dp mdl-color--deep-purple-100 text-box report-info">
+                        <b>Patient ID:</b>
+                        $doc.getFieldValues("patient_id").get(0)
+                        <br/>
+                        <b>Session No.:</b>
+                        $doc.getFieldValues("session_no").get(0)
+                        <br/>
+                        <b>Patient Age:</b>
+                        #if( $doc.getFieldValues("age").get(0) )
+                            $doc.getFieldValues("age").get(0)
+                        #else
+                            N/A
+                        #end
+                        <br/>
+                        <b>Patient Gender:</b>
+                        #if( $doc.getFieldValues("gender").get(0) )
+                            $doc.getFieldValues("gender").get(0)
+                        #else
+                            N/A
+                        #end
+                    </div>
+                    <div class="conc-key mdl-shadow--4dp mdl-color--deep-purple-100 text-box report-info hidden">
+                        <h6 class="title no-margin">Annotation Key</h6>
+                        <div class="key-list-action mdl-list">
+                            <div class="mdl-list__item">
+                                <i class="concept-on activity">&nbsp;&nbsp;&nbsp;</i>
+                                <span class="key-item">EEG Activity</span>
+                            </div>
+                            <div class="mdl-list__item">
+                                <i class="concept-on eeg_event">&nbsp;&nbsp;&nbsp;</i>
+                                <span class="key-item">EEG Event</span>
+                            </div>
+                            <div class="mdl-list__item">
+                                <i class="concept-on problem">&nbsp;&nbsp;&nbsp;</i>
+                                <span class="key-item">Problem</span>
+                            </div>
+                            <div class="mdl-list__item">
+                                <i class="concept-on test">&nbsp;&nbsp;&nbsp;</i>
+                                <span class="key-item">Test</span>
+                            </div>
+                            <div class="mdl-list__item">
+                                <i class="concept-on treatment">&nbsp;&nbsp;&nbsp;</i>
+                                <span class="key-item">Treatment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        #parse("footer.vm")
+    </div>
+
+</body>
+</html>

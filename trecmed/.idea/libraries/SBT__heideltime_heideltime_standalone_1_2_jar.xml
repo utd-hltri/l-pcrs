@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: heideltime:heideltime-standalone:1.2:jar">
+    <CLASSES>
+      <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/heideltime/heideltime-standalone/jars/heideltime-standalone-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

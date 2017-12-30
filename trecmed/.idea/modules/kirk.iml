@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="kirk" external.linked.project.path="/shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/target/scala-2.11/classes" />
+    <output-test url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/target/scala-2.11/test-classes" />
+    <exclude-output />
+    <content url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk">
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/src/main/java" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/src/main/scala-2.11" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/target/scala-2.11/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/src/test/java" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/src/test/scala-2.11" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/target/scala-2.11/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/src/main/resources" type="java-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/target/scala-2.11/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/target/scala-2.11/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file:///shared/hltdir1/disk1/home/travis/code/hltri-shared/scribe-kirk/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="hltri-util" exported="" />
+    <orderEntry type="module-library">
+      <library name="SBT: unmanaged-sources-and-docs">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar:///shared/hltdir1/disk1/home/travis/.ivy2/cache/com.sun.xml.ws/jaxws-tools/srcs/jaxws-tools-2.2.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="SBT: xpp3:xpp3:1.1.4c:jar" level="project" />
+    <orderEntry type="library" name="SBT: xmlunit:xmlunit:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: xml-apis:xml-apis:1.3.03:jar" level="project" />
+    <orderEntry type="library" name="SBT: xerces:xercesImpl:2.9.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: xalan:xalan:2.7.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: uk.ac.gate:gate-core:8.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: uk.ac.gate:gate-compiler-jdt:4.3.2-P20140317-1600:jar" level="project" />
+    <orderEntry type="library" name="SBT: uk.ac.gate:gate-asm:3.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: se.sics.prologbeans:prologbeans:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: riso-numerical:LBFGS:0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.xhtmlrenderer:flying-saucer-core:9.0.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.tukaani:xz:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-core:2.5.6.SEC01:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-beans:2.5.6.SEC01:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.springframework:spring-aop:2.5.6.SEC01:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.21:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:log4j-over-slf4j:1.7.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:jul-to-slf4j:1.7.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:jcl-over-slf4j:1.7.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang.plugins:scala-continuations-library_2.11:1.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.pentaho.pentaho-commons:pentaho-package-manager:1.0.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.neuroph:neuroph:2.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.netlib.jlapack:blas:0.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.netlib.blas:liblinear:1.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jsoup:jsoup:1.6.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jdom:jdom2:2.0.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jdom:jdom:1.1.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.hamcrest:hamcrest-core:1.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.encog.engine:encog-engine:2.5.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.encog:encog-core:3.2.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.codehaus.woodstox:woodstox-core-lgpl:4.2.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.codehaus.woodstox:stax2-api:3.1.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.bouncycastle:bcprov-jdk15:1.45:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.bouncycastle:bcmail-jdk15:1.45:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.xmlbeans:xmlbeans:2.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tika:tika-parsers:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.tika:tika-core:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.poi:poi-scratchpad:3.10-beta2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.poi:poi-ooxml-schemas:3.10-beta2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.poi:poi-ooxml:3.10-beta2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.poi:poi:3.10-beta2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.pdfbox:pdfbox:1.8.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.pdfbox:jempbox:1.8.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.pdfbox:fontbox:1.8.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.opennlp:opennlp-maxent:3.0.2-incubating:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-web:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-slf4j-impl:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-jul:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-jcl:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-core:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-api:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.logging.log4j:log4j-1.2-api:2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.james:apache-mime4j-dom:0.7.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.james:apache-mime4j-core:0.7.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.ivy:ivy:2.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-math3:3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-math:2.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-csv:1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-compress:1.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.ant:ant-launcher:1.9.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.ant:ant:1.9.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: nz.ac.waikato.cms.weka:weka-dev:3.7.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.nekohtml:nekohtml:1.9.14:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sourceforge.collections:collections-generic:4.01:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sf.trove4j:trove4j:3.0.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sf.squirrel-sql.thirdparty-non-maven:java-cup:0.11a:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sf.jung:jung-graph-impl:2.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sf.jung:jung-api:2.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.sf.jung:jung-algorithms:2.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: mill:mill:0.0.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: jwnl:jwnl:0:jar" level="project" />
+    <orderEntry type="library" name="SBT: junit:junit:4.11:jar" level="project" />
+    <orderEntry type="library" name="SBT: joda-time:joda-time:2.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: jdom:jdom:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: jaxen:jaxen:1.1.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: javax.xml.bind:jaxb-api:2.2.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: javax.json:javax.json-api:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: it.unimi.dsi:fastutil:7.0.12:jar" level="project" />
+    <orderEntry type="library" name="SBT: info.clearthough.layout:tablelayout:2009-06-10:jar" level="project" />
+    <orderEntry type="library" name="SBT: heideltime:heideltime-standalone:1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: gov.nih.nlm.nls.metamap:metamapapi:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: gnu.getopt:java-getopt:1.0.13:jar" level="project" />
+    <orderEntry type="library" name="SBT: gnu.cajo:cajo:1.145:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-wordnet_stem_annotator:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-wordnet:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-util:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-timen_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-text:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-ternip_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-tarsqi_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-swirl_srl_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-stanford_parser_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-stanford_corenlp_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-pigeon:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-ml:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-metamap_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-kiwi:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-jwnl_wordnet_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-i2b2-models:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-i2b2:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-heideltime_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-genmodel:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-genia_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-features-token:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-features-span:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-features-relation:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-docview:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hltri.kirk:kirk-bios_ner_wrapper:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.utdallas.hlt:mallet_2.10:2.0.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.stanford.nlp:stanford-parser:0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.stanford.nlp:stanford-corenlp:3.6.0:models:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.stanford.nlp:stanford-corenlp:3.6.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.mit:jwi:2.2.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: dom4j:dom4j:1.6.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: de.jollyday:jollyday:0.4.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: concurrent:concurrent:1.3.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-lang:commons-lang:2.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-io:commons-io:2.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-collections:commons-collections:3.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-codec:commons-codec:1.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.3.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.thoughtworks.xstream:xstream:1.4.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.representqueens.lingua.en:fathom:1.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.lmax:disruptor:3.3.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.jsuereth:scala-arm_2.11:1.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.io7m.xom:xom:1.2.10:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.googlecode.efficient-java-matrix-library:ejml:0.23:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.googlecode.concurrent-trees:concurrent-trees:2.4.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.guava:guava:18.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.code.findbugs:jsr305:3.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.code.externalsortinginjava:externalsortinginjava:0.1.10:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.3.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.6.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.drewnoakes:metadata-extractor:2.6.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: colt:colt:1.2.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: bios:bios:0:jar" level="project" />
+    <orderEntry type="library" name="SBT: aopalliance:aopalliance:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: antlr:antlr:2.7.5:jar" level="project" />
+    <orderEntry type="module" module-name="scribe" exported="" />
+  </component>
+</module>
